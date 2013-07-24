@@ -2,14 +2,14 @@ package com.refuctor.example;
 
 public class Greeter {
 
-  public HGetter hg = new HGetter();
-  public CGetter cg = new CGetter();
-  public SGetter sg = new SGetter();
-  public WGetter wg = new WGetter();
-  public EGetter eg = new EGetter();
+  public Getter hg = new HGetter();
+  public Getter cg = new CGetter();
+  public Getter sg = new SGetter();
+  public Getter wg = new WGetter();
+  public Getter eg = new EGetter();
 
   public String getGreeting() {
-    return hg.getHlo() + cg.getCma() + sg.getSpc() + wg.getWd() + eg.getEm();
+    return hg.getStr() + cg.getStr() + sg.getStr() + wg.getStr() + eg.getStr();
   }
 
 }

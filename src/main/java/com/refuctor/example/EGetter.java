@@ -1,7 +1,8 @@
 package com.refuctor.example;
 
-public class EGetter {
-  String getEm() {
+public class EGetter implements Getter {
+  @Override
+  public String getStr() {
     return "!";
   }
 }

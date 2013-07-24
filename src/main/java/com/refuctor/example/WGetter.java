@@ -1,7 +1,8 @@
 package com.refuctor.example;
 
-public class WGetter {
-  String getWd() {
+public class WGetter implements Getter {
+  @Override
+  public String getStr() {
     return "World";
   }
 }

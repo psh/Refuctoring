@@ -1,7 +1,8 @@
 package com.refuctor.example;
 
-public class HGetter {
-  String getHlo() {
+public class HGetter implements Getter {
+  @Override
+  public String getStr() {
     return "Hello";
   }
 }

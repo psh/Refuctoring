@@ -1,7 +1,8 @@
 package com.refuctor.example;
 
-public class CGetter {
-  String getCma() {
+public class CGetter implements Getter {
+  @Override
+  public String getStr() {
     return ",";
   }
 }
