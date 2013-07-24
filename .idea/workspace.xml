@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d98e43b-054e-4153-acd9-c022ccf6dcf9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/Getter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/CGetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/CGetter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/EGetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/EGetter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterGetter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/Greeter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/Greeter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/HGetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/HGetter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/SGetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/SGetter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/WGetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/WGetter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Refuctoring.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374630406062" ignored="false" />
-    <file path="/Greeter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374631119518" ignored="false" />
+    <file path="/Greeter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374631747279" ignored="false" />
     <file path="/fragment.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374631337475" ignored="false" />
     <file path="/WGetter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374631387177" ignored="false" />
     <file path="/Getter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374631447738" ignored="false" />
     <file path="/CGetter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374631474064" ignored="false" />
+    <file path="/GetterGetter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374631767695" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +77,16 @@
       <file leaf-file-name="Greeter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/Greeter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="81" selection-end="81" vertical-scroll-proportion="0.07058824">
+            <state line="15" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.2647059">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetterGetter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterGetter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="9" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,13 +164,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/Greeter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/Getter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/CGetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/EGetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/HGetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/SGetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/WGetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/Greeter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterGetter.java" />
       </list>
     </option>
   </component>
@@ -509,9 +514,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterGetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="9" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/Greeter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="81" selection-end="81" vertical-scroll-proportion="0.07058824">
+        <state line="15" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.2647059">
           <folding />
         </state>
       </provider>
