@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.springframework:spring-core:3.0.6.RELEASE" type="repository">
+    <properties maven-id="org.springframework:spring-core:3.0.6.RELEASE" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/spring-core-3.0.6.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
