@@ -21,3 +21,11 @@ To follow the process of **refuctoring** the codebase, you will want to use *git
 - ```08-Spring-config```
 - ```09-Spring-properties```
 
+What's next for Refuctoring?
+===========
+
+The astute readers will have spotted additional refuctoring steps along the way, no doubt; this wasnt the only method of tackling the **pernicious** code-smell of "simple code".
+
+Git provides a wonderful mechanism known as "the branch" however.
+
+Other refuctorings are encouraged and will be incorporated as branches.  Clone the repo, branch from a given tag, keep tags along your branch as you are **refuctoring** and then submit a pull request.
