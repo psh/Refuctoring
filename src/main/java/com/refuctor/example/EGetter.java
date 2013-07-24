@@ -1,8 +1,10 @@
 package com.refuctor.example;
 
-public class EGetter implements Getter {
-  @Override
-  public String getStr() {
-    return "!";
-  }
+public class EGetter extends AbstractGetter {
+
+    @Override
+    public String getStr() {
+        return getSpringProperty();
+    }
+
 }

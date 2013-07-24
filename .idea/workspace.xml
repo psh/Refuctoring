@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d98e43b-054e-4153-acd9-c022ccf6dcf9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/AbstractGetter.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterIterator.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/refuctor/example/GreeterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/application-context.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_8_2.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/CGetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/CGetter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/EGetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/EGetter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/Getter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/Getter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterGetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterGetter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/Greeter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/Greeter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/HGetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/HGetter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Refuctoring.iml" afterPath="$PROJECT_DIR$/Refuctoring.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/SGetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/SGetter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/WGetter.java" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/WGetter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/refuctor/example/application-context.xml" afterPath="$PROJECT_DIR$/src/main/java/com/refuctor/example/application-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -18,16 +24,19 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374634895159" ignored="false" />
     <file path="/Greeter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374636179473" ignored="false" />
-    <file path="/fragment.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374635913657" ignored="false" />
+    <file path="/fragment.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374665371610" ignored="false" />
     <file path="/WGetter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374631387177" ignored="false" />
     <file path="/Getter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374631447738" ignored="false" />
     <file path="/CGetter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374631474064" ignored="false" />
     <file path="/GetterGetter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374635896521" ignored="false" />
-    <file path="/application-context.xml" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374635088278" ignored="false" />
+    <file path="/application-context.xml" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374665616799" ignored="false" />
     <file path="/DummyFile.xpath" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374635096557" ignored="false" />
     <file path="/GreeterTest.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374635268436" ignored="false" />
     <file path="/a.dummy" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374635880554" ignored="false" />
     <file path="/GetterIterator.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374636109825" ignored="false" />
+    <file path="/GenericGetter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374636586239" ignored="false" />
+    <file path="/HGetter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374638439733" ignored="false" />
+    <file path="/AbstractGetter.java" changelist="8d98e43b-054e-4153-acd9-c022ccf6dcf9" time="1374665487881" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,10 +126,37 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HGetter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/HGetter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="51" selection-end="166" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractGetter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/AbstractGetter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="33" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WGetter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/WGetter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GetterIterator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="65" selection-end="79" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,7 +165,7 @@
       <file leaf-file-name="application-context.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/application-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="376" selection-end="376" vertical-scroll-proportion="0.20114942">
+            <state line="18" column="52" selection-start="847" selection-end="847" vertical-scroll-proportion="0.51724136">
               <folding />
             </state>
           </provider>
@@ -146,37 +182,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CGetter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/CGetter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="72" selection-end="84" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SGetter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/SGetter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WGetter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/WGetter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EGetter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/EGetter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -200,17 +209,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/CGetter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/EGetter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/HGetter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/SGetter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/WGetter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/application-context.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/refuctor/example/GreeterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterIterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/Greeter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/Getter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterGetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/GenericGetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/HGetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/AbstractGetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/CGetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/EGetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/SGetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/WGetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/refuctor/example/application-context.xml" />
       </list>
     </option>
   </component>
@@ -550,7 +561,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947295" sideWeight="0.67017543" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32982457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32982457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -627,13 +638,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/HGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/CGetter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="72" selection-end="84" vertical-scroll-proportion="0.0">
@@ -656,41 +660,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/EGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/CGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="72" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/EGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/HGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/SGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/WGetter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
           <folding />
@@ -703,13 +672,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="65" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,9 +698,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/GetterIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/AbstractGetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/HGetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="51" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/CGetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/EGetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/SGetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.28735632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/WGetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refuctor/example/application-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="376" selection-end="376" vertical-scroll-proportion="0.20114942">
+        <state line="18" column="52" selection-start="847" selection-end="847" vertical-scroll-proportion="0.51724136">
           <folding />
         </state>
       </provider>

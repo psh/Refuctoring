@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean name="HGetter" class="com.refuctor.example.HGetter"/>
+    <bean name="HGetter" class="com.refuctor.example.HGetter">
+        <property name="springProperty" value="Hello"/>
+    </bean>
 
-    <bean name="CGetter" class="com.refuctor.example.CGetter"/>
+    <bean name="CGetter" class="com.refuctor.example.CGetter">
+        <property name="springProperty" value=","/>
+    </bean>
 
-    <bean name="SGetter" class="com.refuctor.example.SGetter"/>
+    <bean name="SGetter" class="com.refuctor.example.SGetter">
+        <property name="springProperty" value=" "/>
+    </bean>
 
-    <bean name="WGetter" class="com.refuctor.example.WGetter"/>
+    <bean name="WGetter" class="com.refuctor.example.WGetter">
+        <property name="springProperty" value="World"/>
+    </bean>
 
-    <bean name="EGetter" class="com.refuctor.example.EGetter"/>
+    <bean name="EGetter" class="com.refuctor.example.EGetter">
+        <property name="springProperty" value="!"/>
+    </bean>
 
 </beans>
