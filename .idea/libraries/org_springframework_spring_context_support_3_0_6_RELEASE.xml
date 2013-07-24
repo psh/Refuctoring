@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="org.springframework:spring-context-support:3.0.6.RELEASE" type="repository">
+    <properties maven-id="org.springframework:spring-context-support:3.0.6.RELEASE" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/spring-context-support-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-beans-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-core-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-asm-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-context-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-aop-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-expression-3.0.6.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/commons-logging-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/spring-context-support-3.0.6.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/activation-1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-beans-3.0.6.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-core-3.0.6.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-asm-3.0.6.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-logging-1.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-context-3.0.6.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-aop-3.0.6.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/aopalliance-1.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-expression-3.0.6.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
