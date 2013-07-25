@@ -1,5 +1,7 @@
 package com.refuctor.example;
 
-@GetterPart(",")
 public interface CGetter extends Getter {
+    @Override
+    @GetterPart(",")
+    public String getStr();
 }

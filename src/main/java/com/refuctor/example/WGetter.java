@@ -1,5 +1,7 @@
 package com.refuctor.example;
 
-@GetterPart("World")
 public interface WGetter extends Getter {
+    @Override
+    @GetterPart("World")
+    public String getStr();
 }
