@@ -2,16 +2,16 @@ package com.refuctor.example;
 
 public class Greeter {
 
-  private GetterGetter gg = new GetterGetter();
+    private GetterGetter gg = new GetterGetter();
 
-  public Getter hg = gg.createGetter(1);
-  public Getter cg = gg.createGetter(2);
-  public Getter sg = gg.createGetter(3);
-  public Getter wg = gg.createGetter(4);
-  public Getter eg = gg.createGetter(5);
+    public Getter hg = gg.createGetter(HGetter.class);
+    public Getter cg = gg.createGetter(CGetter.class);
+    public Getter sg = gg.createGetter(SGetter.class);
+    public Getter wg = gg.createGetter(WGetter.class);
+    public Getter eg = gg.createGetter(EGetter.class);
 
-  public String getGreeting() {
-    return hg.getStr() + cg.getStr() + sg.getStr() + wg.getStr() + eg.getStr();
-  }
+    public String getGreeting() {
+        return hg.getStr() + cg.getStr() + sg.getStr() + wg.getStr() + eg.getStr();
+    }
 
 }

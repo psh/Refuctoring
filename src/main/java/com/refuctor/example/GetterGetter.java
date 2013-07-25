@@ -1,14 +1,13 @@
 package com.refuctor.example;
 
+import java.lang.reflect.Proxy;
+
 public class GetterGetter {
-  public Getter createGetter(int i) {
-    switch(i) {
-      case 1: return new HGetter();
-      case 2: return new CGetter();
-      case 3: return new SGetter();
-      case 4: return new WGetter();
-      case 5: return new EGetter();
+    public Getter createGetter(Class<? extends Getter> getterClass) {
+        return (Getter) Proxy.newProxyInstance(
+                Getter.class.getClassLoader(),
+                new Class[]{getterClass},
+                new GetterProxy());
     }
-    return null;
-  }
+
 }
